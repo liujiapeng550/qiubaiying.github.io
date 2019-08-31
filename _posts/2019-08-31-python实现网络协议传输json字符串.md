@@ -8,14 +8,15 @@ header-img: img/pythonTitle.jpg
 catalog: true
 tags:
     - python
-	- 脚本
-	- TCP
-	- Json
+    - 脚本
+    - TCP
+    - Json
 ---
 
 
 
-![image](https://img-blog.csdn.net/20180115185303067)
+![image]
+(https://github.com/liujiapeng550/liujiapeng550.github.io/blob/master/img/pythonTcp.jpg?raw=true)
 # python TCP 代码
 ## client:
 
