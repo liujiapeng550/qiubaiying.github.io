@@ -15,8 +15,7 @@ tags:
 
 
 
-![image]
-(https://github.com/liujiapeng550/liujiapeng550.github.io/blob/master/img/pythonTcp.jpg?raw=true)
+![image](https://github.com/liujiapeng550/liujiapeng550.github.io/blob/master/img/pythonTcp.jpg?raw=true)
 # python TCP 代码
 ## client:
 
