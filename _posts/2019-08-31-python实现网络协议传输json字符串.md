@@ -4,7 +4,7 @@ title:      python实现网络协议传输json字符串
 subtitle:   
 date:       2019-01-30
 author:     JPeng
-header-img: img/pythonTitle.jpg
+header-img: img/python.png
 catalog: true
 tags:
     - python
