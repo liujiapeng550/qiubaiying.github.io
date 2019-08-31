@@ -16,7 +16,7 @@ tags:
 
 
 ![image](https://github.com/liujiapeng550/liujiapeng550.github.io/blob/master/img/pythonTcp.jpg?raw=true)
-# python TCP 代码
+# 1.python TCP 代码
 ## client:
 
 ```
@@ -85,7 +85,7 @@ while True:
  
 
 ```
-# python 中json应用
+# 2.python 中json应用
 ## 1. dumps
 将python中的 字典 转换为 字符串
 
@@ -127,7 +127,7 @@ with open("../config/record.json","w") as dump_f:
     json.dump(load_dict,dump_f)
 ```
 
-# Python 字典(Dictionary)
+# 3.Python 字典(Dictionary)
 ## 1. 什么是字典？
 - 字典(dictionary)是除列表以外python之中最灵活的内置数据结构类型。列表是有序的对象集合，字典是无序的对象集合。
 - 两者之间的区别在于：字典当中的元素是通过键来存取的，而不是通过偏移存取。
