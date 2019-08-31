@@ -16,8 +16,8 @@ tags:
 
 
 ![image](https://github.com/liujiapeng550/liujiapeng550.github.io/blob/master/img/pythonTcp.jpg?raw=true)
-# 1.python TCP 代码
-## client:
+1.python TCP 代码
+client:
 
 ```
 
@@ -50,7 +50,7 @@ while True:
 client.close()
 ```
 
-## Server
+ Server
 
 ```
 
@@ -85,8 +85,8 @@ while True:
  
 
 ```
-# 2.python 中json应用
-## 1. dumps
+ 2.python 中json应用
+ 1. dumps
 将python中的 字典 转换为 字符串
 
 ```
@@ -94,8 +94,7 @@ test_dict = {'bigberg': [7600, {1: [['iPhone', 6300], ['Bike', 800], ['shirt', 3
  #dumps 将数据转换成字符串
  json_str = json.dumps(test_dict)
 ```
-
-## 2. dump
+ 2. dump
 dump: 将数据写入json文件中
 
 ```
@@ -103,8 +102,7 @@ with open("../config/record.json","w") as f:
      json.dump(new_dict,f)
      print("加载入文件完成...")
 ```
-
-## 3. loads
+ 3. loads
 将 字符串 转换为 字典
 
 ```
@@ -113,7 +111,7 @@ print(new_dict)
 print(type(new_dict))
 ```
 
-## 4. load
+ 4. load
 把文件打开，并把字符串变换为数据类型
 
 ```
@@ -127,8 +125,8 @@ with open("../config/record.json","w") as dump_f:
     json.dump(load_dict,dump_f)
 ```
 
-# 3.Python 字典(Dictionary)
-## 1. 什么是字典？
+ 3.Python 字典(Dictionary)
+     1. 什么是字典？
 - 字典(dictionary)是除列表以外python之中最灵活的内置数据结构类型。列表是有序的对象集合，字典是无序的对象集合。
 - 两者之间的区别在于：字典当中的元素是通过键来存取的，而不是通过偏移存取。
 - 字典用"{ }"标识。字典由索引(key)和它对应的值value组成。
@@ -149,7 +147,7 @@ print(tinydict.values())    # 输出所有值
 ```
 
 
-## 2、用方括号访问字典里的值：
+    2、用方括号访问字典里的值：
 
 ```
 dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'};
